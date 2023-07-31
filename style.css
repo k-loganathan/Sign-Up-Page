@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+
+  background: url('back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 18rem;
+  height: 2rem;
+
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  outline: none;
+  border: 1px solid rgba(34, 34, 34, .5);
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, .5);
+
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .5);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 18px;
+  border: 1px solid rgba(34, 34, 34, .5);
+  text-transform: lowercase;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.btn--1 {
+  margin-bottom: 20px;
+}
+
+.login, .signup {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login {
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #3b5bdb;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #364fc7;
+}
+
+.signup {
+  margin-top: 15px;
+}
+
+.forgot {
+  display: inline-block;
+  margin: 15px auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ICONS */
+
+.icon {
+  color: #333;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid rgba(51, 51, 51, .5);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  color: #fff;
+  background-color: #3b5bdb;
+}
+
+.soc-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+/* GO BACK BUTTON */
+
+.go-back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
